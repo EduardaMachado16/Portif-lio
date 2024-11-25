@@ -1,0 +1,20 @@
+h1,h2,h3,p, a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(241, 113, 209);
+}
+h1{
+    color: rgb(236, 12, 124);
+    text-shadow: 1px 1px 10px rgb(230, 72, 156);
+}
+h1,h2,h3{
+    width: 100%;
+    text-align: center;
+}
+p{text-align: justify;}
+#whatsapp:hover{
+    border-bottom: 2px solid pink;
+    border-radius: 20pt;
+    transition: 1s;
+}
+#whatsapp{transition: 1s ; border-bottom: none;}

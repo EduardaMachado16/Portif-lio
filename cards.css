@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.card{
+    background-color: pink;
+    border-radius: 5pt;
+    flex: 1 1 100px;
+    padding: 12pt 10px 12pt 10px;
+    margin: 2pt;
+    display: grid;
+    min-width: 200px;
+    transition: 1s;
+}
+.card:hover{
+    border: 1px solid rgb(239, 95, 167);
+    transition: 1s;
+    background-color: rgb(227, 52, 154);
+}
